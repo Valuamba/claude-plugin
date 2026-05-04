@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "valuamba-claude-plugin",
+  "owner": {
+    "name": "Valuamba"
+  },
+  "metadata": {
+    "description": "Plugin creation toolkit for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "plugin-create",
+      "source": "./",
+      "description": "Guide and tooling for creating complete Claude Code plugins. Scaffolds new plugins, audits existing structure, and provides architecture guidance for skills, agents, scripts, hooks, MCP, and references."
+    }
+  ]
+}

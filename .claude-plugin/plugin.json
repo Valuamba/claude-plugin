@@ -1,0 +1,24 @@
+{
+  "name": "plugin-create",
+  "version": "1.0.0",
+  "description": "Guide and tooling for creating complete Claude Code plugins. Scaffolds new plugins, audits existing plugin structure, and provides architecture guidance for skills, agents, scripts, hooks, MCP, and references.",
+  "author": {
+    "name": "Valuamba",
+    "url": "https://github.com/Valuamba"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Valuamba/claude-plugin",
+  "repository": "https://github.com/Valuamba/claude-plugin",
+  "keywords": [
+    "plugin",
+    "scaffold",
+    "generator",
+    "architecture",
+    "skills",
+    "agents",
+    "hooks",
+    "mcp",
+    "plugin-development",
+    "claude-code"
+  ]
+}

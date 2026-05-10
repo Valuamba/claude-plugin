@@ -24,6 +24,7 @@ claude --plugin-dir /Users/valuamba/projs/skills/claude-plugin
 /plugin-create                            — interactive guide to help you decide what to build
 /plugin-create scaffold <name>            — generate a new plugin with all components
 /plugin-create scaffold <name> --minimal  — generate MVP (manifest + 1 skill + 1 agent)
+/plugin-create create skill <name>        — add a new skill to an existing plugin
 /plugin-create audit [path]               — audit an existing plugin for completeness and best practices
 /plugin-create grow [path]                — suggest next development milestone
 ```
@@ -38,6 +39,7 @@ claude-plugin/
 ├── skills/
 │   ├── plugin-create/          — main router skill
 │   ├── plugin-scaffold/        — generates new plugins from templates
+│   ├── create-skill/           — adds a new skill to an existing plugin
 │   ├── plugin-audit/           — audits existing plugins (manifest, skills, agents, security)
 │   └── plugin-grow/            — suggests next milestone (v0.1 → v1.0)
 ├── agents/

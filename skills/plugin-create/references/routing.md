@@ -6,6 +6,8 @@
 |---|---|---|---|
 | `scaffold <name>` | plugin-scaffold | — | Generates full directory |
 | `scaffold <name> --minimal` | plugin-scaffold | — | MVP: manifest + 1 skill + 1 agent |
+| `create skill <name>` | create-skill | — | Adds skill to cwd plugin |
+| `create skill <name> in <path>` | create-skill | — | Adds skill to plugin at path |
 | `audit` | plugin-audit | structure-reviewer | Audits cwd plugin |
 | `audit <path>` | plugin-audit | structure-reviewer | Audits plugin at path |
 | `grow` | plugin-grow | — | Growth guidance for cwd plugin |

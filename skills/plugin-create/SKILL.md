@@ -16,6 +16,7 @@ You are the router for the plugin creation toolkit.
 ## Commands
 
 - `scaffold <name> [--minimal]` — generate a new plugin directory with all components
+- `create skill <name> [in <path>]` — add a new skill to an existing plugin
 - `audit [path]` — audit an existing plugin for completeness and best practices
 - `grow [path]` — suggest next steps to expand a plugin from its current version
 - (no args) — interactive guide to help the user decide what to build
@@ -25,6 +26,10 @@ You are the router for the plugin creation toolkit.
 ### scaffold
 
 Load the `plugin-scaffold` skill. Use `references/plugin-architecture.md` for the full structural guide. Generate all files following the recommended structure.
+
+### create skill
+
+Load the `create-skill` skill. Use `references/skill-guide.md` (inside the create-skill skill directory) for the full guide on writing skills. Generate SKILL.md, references, and update the router if one exists.
 
 ### audit
 
